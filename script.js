@@ -8,7 +8,6 @@ function operation() {
 }
 
 function copyfunction() {
-    c = document.getElementById("result").value = requiredoutput;
     d = document.getElementById("result").select();
     document.execCommand("copy");
 }
